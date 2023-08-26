@@ -17,7 +17,7 @@ main{
     padding: 10px;
 }
 main aside{
-    width: 30%;
+    width: calc(30% - 20px);
     margin-bottom: 10px !important;
     border: 1px solid white;
     line-height: 1.5;
@@ -35,12 +35,13 @@ main aside #second{
     position: relative;
 }
 main aside #second img{
-    width: 100%;
+    width: 100% ;
 }
 main aside #second #third h1{
     position: absolute;
     bottom: 2px;
     color: black !important;
+    padding-left: 5px;
 }
 main aside #first{
     display: inline;
@@ -162,7 +163,7 @@ main aside #seven .seven{
     margin: 0px;
 }
 main header{
-    width: 68%;
+    width: calc(70% - 20px);
     margin-bottom: 20px !important;
     border: 1px solid white;
     line-height: 1.5;
