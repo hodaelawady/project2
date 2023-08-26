@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: Roboto;
+    color: #757575;
+}
+@font-face{
+    font-family:Roboto ;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+.clear{
+    clear: both;
+    content: none;
+}
+main{
+    width: 100%;
+    padding: 10px;
+}
+main aside{
+    width: 30%;
+    margin-bottom: 10px !important;
+    border: 1px solid white;
+    line-height: 1.5;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 10px;
+    padding: 10px;
+}
+main aside .h{
+    font-size: 20px;
+    font-weight: bolder;
+}
+main aside #second{
+    width: 100%;
+    position: relative;
+}
+main aside #second img{
+    width: 100%;
+}
+main aside #second #third h1{
+    position: absolute;
+    bottom: 2px;
+    color: black !important;
+}
+main aside #first{
+    display: inline;
+}
+main aside #first p{
+    color: #757575;
+}
+main aside #first p i{
+    display: inline-block;
+    color: #009688;
+}
+main aside p i{
+    display: inline-block;
+    color: #009688 !important;  
+}
+main aside #one{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important ;
+    border-radius: 16px;
+    line-height: 1 !important;
+}
+main aside #one .one{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 90%;
+    border-radius: 16px;
+    margin: 0px;
+    color: white !important;
+}
+main aside #two{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important;
+    border-radius: 16px;
+    line-height: 1 !important;
+}
+main aside #two .two{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 80%;
+    border-radius: 16px;
+    margin: 0px;
+    color: white !important;
+}
+main aside #three{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important ;
+    border-radius: 16px;
+    line-height: 1 !important;
+}
+main aside #three .three{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 75%;
+    border-radius: 16px;
+    margin: 0px;
+    color: white !important;
+}
+main aside #four{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important ;
+    border-radius: 16px;
+    line-height: 1 !important;
+}
+main aside #four .four{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 50%;
+    border-radius: 16px;
+    margin: 0px;
+    color: white !important;
+}
+main aside #five{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important ;
+    border-radius: 16px;
+    height: 20px;
+}
+main aside #five .five{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 100%;
+    border-radius: 16px;
+    height: 20px;
+    margin: 0px;
+}
+main aside #six{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important ;
+    border-radius: 16px;
+    height: 20px;
+}
+main aside #six .six{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 50%;
+    border-radius: 16px;
+    height: 20px;
+    margin: 0px;
+}
+main aside #seven{
+    width: 90%;
+    text-align: center;
+    background-color:#f1f1f1 !important;
+    border-radius: 16px;
+    height: 20px;
+}
+main aside #seven .seven{
+    text-align: center;
+    background-color: #009688 !important;
+    width: 30%;
+    border-radius: 16px;
+    height: 20px;
+    margin: 0px;
+}
+main header{
+    width: 68%;
+    margin-bottom: 20px !important;
+    border: 1px solid white;
+    line-height: 1.5;
+    float:right;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 10px;
+}
+main header h3{
+    color: #757575;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+main header p {
+    color: #009688 !important;
+}
+main header p i{
+    color: #009688 !important;
+}
+main header p span{
+    color: white !important;
+    background-color: #009688;
+    margin: 0px;
+}
+main header #imp{
+    color: black !important;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 15px;
+}
+main header p:first-child{
+    color:#757575 !important ;
+    font-size: 30px;
+    padding-top: 20px ;
+}
+main header p:first-child i{
+    color: #009688 !important;
+    font-size: 35px;
+    margin-left: 0px;
+}
+footer{
+    width: 100%;
+    display: table;
+    background-color: #009688 !important;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 0px !important;
+}
+footer p{
+    background-color: #009688 !important;
+    color: white !important;
+}
+footer p a{
+    background-color: #009688 !important;
+    color: white !important;
+}
+footer i{
+    background-color: #009688 !important;
+    color: white !important;
+    display: inline !important;
+    margin: 3px;
+}
+@media screen and (max-width:600px) {
+    main aside{
+        width: 100%;
+        margin: 3px !important;
+    }
+    main header{
+        width: 100%;
+        margin: 3px !important;
+    }
+}
